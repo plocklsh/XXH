@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\luasocket">
+      <UniqueIdentifier>{6a7c90c5-7bce-4007-8657-60bbbadf1bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\luajit">
+      <UniqueIdentifier>{922097a1-d25a-49c7-8c30-6e824078b81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libuv">
+      <UniqueIdentifier>{26e4d1a4-ffc8-4209-8986-482482b00ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libmysql">
+      <UniqueIdentifier>{42e6da1d-3608-43aa-bc38-ee06ad1cc2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libmysql\mysql">
+      <UniqueIdentifier>{5bab3a10-7d2b-4b15-a0d4-314ace858c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\libmysql\mysql\psi">
+      <UniqueIdentifier>{3133554f-9fab-4969-8a3c-8796f9569893}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linked_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlDB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lpack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameServerConfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uthash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\lauxlib.h">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\lua.h">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\lua.hpp">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\luaconf.h">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\lualib.h">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luajit\luajit.h">
+      <Filter>源文件\luajit</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\auxiliar.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\except.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\inet.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\luasocket.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\luasocket_buffer.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\luasocket_io.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\mime.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\options.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\select.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\socket.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\socket_scripts.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\tcp.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\timeout.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\udp.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="luasocket\wsocket.h">
+      <Filter>源文件\luasocket</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\android-ifaddrs.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\pthread-fixes.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\stdint-msvc2008.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\tree.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-bsd.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-darwin.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-errno.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-linux.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-sunos.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-threadpool.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-unix.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-version.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libuv\uv-win.h">
+      <Filter>源文件\libuv</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\big_endian.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\byte_order_generic.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\byte_order_generic_x86.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\byte_order_generic_x86_64.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\decimal.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\errmsg.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\keycache.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\little_endian.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\m_ctype.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\m_string.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_alloc.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_attribute.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_byteorder.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_compiler.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_config.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_dbug.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_dir.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_getopt.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_global.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_list.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_net.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_pthread.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_sys.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\my_xml.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql_com.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql_com_server.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql_embed.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql_time.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql_version.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysqld_ername.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysqld_error.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\sql_common.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\sql_state.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\sslopt-case.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\sslopt-longopts.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\sslopt-vars.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\typelib.h">
+      <Filter>源文件\libmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\client_authentication.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\client_plugin.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\get_password.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\plugin_auth_common.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\plugin_trace.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\service_mysql_alloc.h">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_file.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_idle.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_mdl.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_memory.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_socket.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_sp.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_stage.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_statement.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_table.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\mysql_thread.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\psi.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\psi_base.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+    <ClInclude Include="libmysql\mysql\psi\psi_memory.h">
+      <Filter>源文件\libmysql\mysql\psi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lpack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\auxiliar.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\except.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\inet.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\luasocket.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\luasocket_buffer.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\luasocket_io.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\mime.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\options.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\select.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\socket_scripts.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\tcp.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\timeout.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\udp.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+    <ClCompile Include="luasocket\wsocket.c">
+      <Filter>源文件\luasocket</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libmysql\mysql\client_plugin.h.pp">
+      <Filter>源文件\libmysql\mysql</Filter>
+    </None>
+  </ItemGroup>
+</Project>
